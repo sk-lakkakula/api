@@ -1,0 +1,40 @@
+tagline-traders-api-2022-02-11 18:58:02 [restartedMain] INFO  com.vtt.apps.ApiApplication - Starting ApiApplication using Java 17.0.1 on LAPTOP-64GATL7J with PID 3468 (D:\microservices-workspace\api\target\classes started by sunil kumar in D:\microservices-workspace\api)
+tagline-traders-api-2022-02-11 18:58:02 [restartedMain] INFO  com.vtt.apps.ApiApplication - No active profile set, falling back to default profiles: default
+tagline-traders-api-2022-02-11 18:58:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+tagline-traders-api-2022-02-11 18:58:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+tagline-traders-api-2022-02-11 18:58:03 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+tagline-traders-api-2022-02-11 18:58:03 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+tagline-traders-api-2022-02-11 18:58:03 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+tagline-traders-api-2022-02-11 18:58:03 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+tagline-traders-api-2022-02-11 18:58:03 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+tagline-traders-api-2022-02-11 18:58:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+tagline-traders-api-2022-02-11 18:58:04 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+tagline-traders-api-2022-02-11 18:58:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+tagline-traders-api-2022-02-11 18:58:04 [restartedMain] INFO  com.vtt.apps.ApiApplication - Started ApiApplication in 2.559 seconds (JVM running for 3.326)
+tagline-traders-api-2022-02-11 18:58:05 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+tagline-traders-api-2022-02-11 18:58:05 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+tagline-traders-api-2022-02-11 18:58:05 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+tagline-traders-api-2022-02-11 19:00:40 [http-nio-8080-exec-1] INFO  c.v.apps.controller.EmailController - Exec sendEmail ...
+tagline-traders-api-2022-02-11 19:00:40 [http-nio-8080-exec-1] INFO  com.vtt.apps.service.EmailService - Exc sendEmail From Service....IMPL
+tagline-traders-api-2022-02-11 19:00:42 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. Learn more at<EOL>534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor u11sm29073779pfg.171 - gsmtp<EOL>]
+tagline-traders-api-2022-02-11 19:07:28 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+tagline-traders-api-2022-02-11 19:42:21 [restartedMain] INFO  com.vtt.apps.ApiApplication - Starting ApiApplication using Java 17.0.1 on LAPTOP-64GATL7J with PID 15816 (D:\microservices-workspace\api\target\classes started by sunil kumar in D:\microservices-workspace\api)
+tagline-traders-api-2022-02-11 19:42:21 [restartedMain] INFO  com.vtt.apps.ApiApplication - No active profile set, falling back to default profiles: default
+tagline-traders-api-2022-02-11 19:42:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+tagline-traders-api-2022-02-11 19:42:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+tagline-traders-api-2022-02-11 19:42:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+tagline-traders-api-2022-02-11 19:42:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+tagline-traders-api-2022-02-11 19:42:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+tagline-traders-api-2022-02-11 19:42:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+tagline-traders-api-2022-02-11 19:42:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1444 ms
+tagline-traders-api-2022-02-11 19:42:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+tagline-traders-api-2022-02-11 19:42:24 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+tagline-traders-api-2022-02-11 19:42:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+tagline-traders-api-2022-02-11 19:42:24 [restartedMain] INFO  com.vtt.apps.ApiApplication - Started ApiApplication in 3.133 seconds (JVM running for 4.252)
+tagline-traders-api-2022-02-11 19:42:26 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+tagline-traders-api-2022-02-11 19:42:26 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+tagline-traders-api-2022-02-11 19:42:26 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+tagline-traders-api-2022-02-11 19:42:33 [http-nio-8080-exec-2] INFO  c.v.apps.controller.EmailController - Exec sendEmail ...
+tagline-traders-api-2022-02-11 19:42:33 [http-nio-8080-exec-2] INFO  com.vtt.apps.service.EmailService - Exc sendEmail From Service....IMPLMailRequest [name= OM SAI RAM, to=herambh.lakkakula@gmail.com, from=sunil.lakkakula@gmail.com, subject=Test Invoice]
+tagline-traders-api-2022-02-11 19:42:38 [http-nio-8080-exec-2] INFO  com.vtt.apps.service.EmailService - Success sendEmail From Service....IMPL
+tagline-traders-api-2022-02-11 19:45:36 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
