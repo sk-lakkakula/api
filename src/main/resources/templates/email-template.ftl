@@ -80,9 +80,10 @@
 
     <section>
       <article>
-        <p>Hello <b>Sunil,</b></p>
+        <p>Hello <b>${Name},</b></p>
         ,<br />
         <p>Thank you for your order.</p>
+        <p>Order # ${OrderNo}.</p>
         <p>
           We’ll send a confirmation when your order ships. Your estimated
           delivery date is indicated below. If you would like to view the status
@@ -98,7 +99,7 @@
       </article>
       <article>
         <h5>Your order will be sent to:</h5>
-        <p>L SUNIL ,HYDERABAD, TELANGANA India</p>
+        <p>${Location}</p>
       </article>
     </section>
     <section>

@@ -32,7 +32,7 @@ public class EmailController {
 		Map<String, Object> model = new HashMap<>();
 		model.put("Name", request.getName());
 		model.put("Location", "Gachibowli,Hyderabad,India");
-		model.put("Designation", "Tech Lead");
+		model.put("OrderNo", "1234");
 		return service.sendEmail(request, model);
 
 	}
