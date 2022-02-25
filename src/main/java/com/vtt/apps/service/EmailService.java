@@ -16,7 +16,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
-import com.vtt.apps.model.MailRequest;
+import com.vtt.apps.model.InvoiceRequest;
 import com.vtt.apps.model.MailResponse;
 
 import freemarker.template.Configuration;
@@ -33,7 +33,7 @@ public class EmailService {
 	@Autowired
 	private Configuration config;
 	
-	public MailResponse sendEmail(MailRequest request, Map<String, Object> model) {
+	public MailResponse sendEmail(InvoiceRequest request, Map<String, Object> model) {
 		MailResponse response = new MailResponse();
 		MimeMessage message = sender.createMimeMessage();
 		try {
@@ -48,9 +48,11 @@ public class EmailService {
 			String html = FreeMarkerTemplateUtils.processTemplateIntoString(t, model);
 
 			helper.setTo(request.getTo());
+			helper.setCc("sk-lakkakula@gmail.com");
 			helper.setText(html, true);
 			helper.setSubject(request.getSubject());
 			helper.setFrom(request.getFrom());
+			
 			
 			sender.send(message);
 

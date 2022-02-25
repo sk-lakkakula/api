@@ -75,7 +75,7 @@
   </head>
   <body>
     <header>
-      <h4>Vishudha Tagline Traders - Invoice #</h4>
+      <h4>Vishudha Tagline Traders - Invoice #${OrderNo}</h4>
     </header>
 
     <section>
@@ -95,35 +95,35 @@
     <section>
       <article>
         <h5>Arriving :</h5>
-        <p>Tuesday, March 21</p>
+        <p>${ArrivingDate}</p>
       </article>
       <article>
         <h5>Your order will be sent to:</h5>
-        <p>${Location}</p>
+        <p>${Address}</p>
       </article>
     </section>
     <section>
       <article>
         <h5>Order summary</h5>
-        <p>Order #407-8337267-2961940</p>
+        <p>Order #${OrderNo}</p>
         <br />
       </article>
       <article>
         <h5>Order Date:</h5>
-        <p>Placed on Friday, March 20, 2021</p>
+        <p>${OrderDate}</p>
       </article>
 
       <article>
         <h5>Item Subtotal:</h5>
-        <p>Rs.5,548.00</p>
+        <p>INR .${ItemsPrice}</p>
       </article>
       <article>
         <h5>Shipping & Handling:</h5>
-        <p>Rs.80.00</p>
+        <p>INR ${ShippingPrice}</p>
       </article>
       <article>
         <h5>Order Total:</h5>
-        <p>Rs.5,548.00</p>
+        <p>INR ${TotalPrice}</p>
       </article>
     </section>
 
