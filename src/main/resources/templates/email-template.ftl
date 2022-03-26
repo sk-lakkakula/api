@@ -118,10 +118,6 @@
         <p>INR .${ItemsPrice}</p>
       </article>
       <article>
-        <h5>Shipping & Handling:</h5>
-        <p>INR ${ShippingPrice}</p>
-      </article>
-      <article>
         <h5>Order Total:</h5>
         <p>INR ${TotalPrice}</p>
       </article>

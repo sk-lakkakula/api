@@ -48,7 +48,7 @@ public class EmailService {
 			String html = FreeMarkerTemplateUtils.processTemplateIntoString(t, model);
 
 			helper.setTo(request.getTo());
-			helper.setCc("sk-lakkakula@gmail.com");
+			helper.setCc(request.getCc());
 			helper.setText(html, true);
 			helper.setSubject(request.getSubject());
 			helper.setFrom(request.getFrom());

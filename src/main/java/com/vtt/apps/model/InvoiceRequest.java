@@ -14,6 +14,7 @@ public class InvoiceRequest {
 	private String shippingPrice;
 	private String totalPrice;
 	private String to;
+	private String cc;
 	private String subject;
 	private String from;
 	
@@ -83,12 +84,19 @@ public class InvoiceRequest {
 	public void setTotalPrice(String totalPrice) {
 		this.totalPrice = totalPrice;
 	}
-	@Override
-	public String toString() {
-		return "InvoiceRequest [name=" + name + ", orderNo=" + orderNo + ", arrivingDate=" + arrivingDate + ", address="
-				+ address + ", itemsPrice=" + itemsPrice + ", shippingPrice=" + shippingPrice + ", totalPrice="
-				+ totalPrice + ", to=" + to + ", subject=" + subject + ", from=" + from + "]";
+	public String getCc() {
+		return cc;
+	}
+	public void setCc(String cc) {
+		this.cc = cc;
 	}
 	
+	@Override
+	public String toString() {
+		return "InvoiceRequest [name=" + name + ", orderNo=" + orderNo + ", arrivingDate=" + arrivingDate
+				+ ", orderDate=" + orderDate + ", address=" + address + ", itemsPrice=" + itemsPrice
+				+ ", shippingPrice=" + shippingPrice + ", totalPrice=" + totalPrice + ", to=" + to + ", cc=" + cc
+				+ ", subject=" + subject + ", from=" + from + "]";
+	}
 }
 
