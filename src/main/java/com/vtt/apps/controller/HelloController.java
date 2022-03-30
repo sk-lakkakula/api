@@ -16,10 +16,6 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String wish() {
 		LOGGER.info("INFO-wish");
-		LOGGER.warn("WARN-wish");
-		LOGGER.trace("TRACE-wish");
-		LOGGER.error("ERROR-wish");
-		LOGGER.debug("DEBUG-wish");
 		return "Hello";
 	}
 
